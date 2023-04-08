@@ -1,0 +1,10 @@
+nav a {
+  margin-right: 20px;
+}
+nav a:hover {
+  background-color: blue;
+  width: 20px;
+  padding: 5px;
+  border-radius: 6px;
+  position: sticky;
+}

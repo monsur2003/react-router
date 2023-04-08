@@ -1,0 +1,12 @@
+.frnds {
+   display: grid !important;
+   grid-template-columns: repeat(2, 1fr) !important;
+
+   gap: 10px !important;
+}
+@media (max-width: 767px) {
+   .frnds {
+      display: grid !important;
+      grid-template-columns: repeat(1, 1fr) !important;
+   }
+}
